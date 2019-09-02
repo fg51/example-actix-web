@@ -1,0 +1,8 @@
+[package]
+authors = ["kflange <zknsftk1msrk@gmail.com>"]
+edition = "2018"
+name = "example-actix-web"
+version = "0.1.0"
+
+[dependencies]
+actix-web = "1.0"
