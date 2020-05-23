@@ -2,8 +2,9 @@
 authors = ["kflange <zknsftk1msrk@gmail.com>"]
 edition = "2018"
 name = "example-actix-web"
-version = "0.1.0"
+version = "0.2.0-develop"
 [dependencies]
-actix-web = "1.0"
-env_logger = "0.6"
-log = "0.4"
+actix-web = "2"
+actix-rt = "1"
+env_logger = "*"
+log = "*"
