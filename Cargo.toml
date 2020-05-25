@@ -2,9 +2,12 @@
 authors = ["kflange <zknsftk1msrk@gmail.com>"]
 edition = "2018"
 name = "example-actix-web"
-version = "0.2.0"
+version = "0.3.0-develop"
 [dependencies]
 actix-web = "2"
 actix-rt = "1"
 env_logger = "*"
 log = "*"
+juniper = "0.14"
+serde = {version = "*", features = ["derive"] }
+serde_json = "*"
